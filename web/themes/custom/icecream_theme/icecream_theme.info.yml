@@ -1,0 +1,15 @@
+# icecream_theme.info.yml
+name: icecream_theme
+type: theme
+base theme: false
+description: "First custom icecream theme"
+core_version_requirement: ^10
+php: 8.1
+libraries:
+  - "icecream_theme/global"
+version: '1.0.0'
+regions:
+  header: 'Header'
+  menu: 'Menu'
+  content: 'Content'
+  footer: 'Footer'

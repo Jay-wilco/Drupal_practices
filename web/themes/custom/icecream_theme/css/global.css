@@ -1,0 +1,24 @@
+/*
+ * This is a placeholder for your global theme styles.
+ */
+
+/* Trivial data 1: Change the background of the entire page to a light color. */
+body {
+  background-color: #bc1212;
+}
+
+/* Trivial data 2: Add a visible border to the main content area. */
+.layout-container {
+  border: 2px solid lightblue;
+  padding: 1rem;
+}
+
+/* Trivial data 3: Change the color of all headings. */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: #333;
+}
