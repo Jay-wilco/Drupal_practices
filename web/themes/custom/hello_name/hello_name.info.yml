@@ -1,0 +1,5 @@
+name: 'Hello Name'
+type: module
+description: 'A simple example module to display a name from the URL.'
+core_version_requirement: ^9 || ^10
+package: 'Custom'

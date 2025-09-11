@@ -1,0 +1,5 @@
+name: "hello form"
+type: module
+description: "A simple example module to display a form and greet the user."
+core_version_requirement: ^9 || ^10
+package: "Custom"
