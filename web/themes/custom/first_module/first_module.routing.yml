@@ -1,0 +1,7 @@
+first_module.first_page:
+  path: '/first/page'
+  defaults:
+    _controller: '\Drupal\first_module\Controller\FirstController::firstPage'
+    _title: 'My First Drupal Page'
+  requirements:
+    _permission: 'access content'

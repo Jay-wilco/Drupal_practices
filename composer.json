@@ -22,7 +22,9 @@
         "drupal/core-recommended": "^10.5",
         "drupal/devel": "^5.4",
         "drupal/remove_meta_info": "^1.0",
+        "drupal/thex": "^10.0",
         "drupal/webprofiler": "^10.3",
+        "drupal/xara": "^10.1",
         "drush/drush": "^12.5"
     },
     "conflict": {
