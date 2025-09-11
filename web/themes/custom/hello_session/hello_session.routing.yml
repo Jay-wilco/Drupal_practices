@@ -1,0 +1,15 @@
+hello_session.form:
+  path: '/hello-session'
+  defaults:
+    _form: '\Drupal\hello_session\Form\HelloSessionForm'
+    _title: 'Set Your Name'
+  requirements:
+    _permission: 'access content'
+
+hello_session.greeting_page:
+  path: '/hello-session/greeting'
+  defaults:
+    _controller: '\Drupal\hello_session\Controller\HelloSessionController::greeting'
+    _title: 'Your Greeting'
+  requirements:
+    _permission: 'access content'

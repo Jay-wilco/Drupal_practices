@@ -1,0 +1,5 @@
+name: hello session
+type: module
+description: A simple example module to demonstrate session handling.
+core_version_requirement: ^9 || ^10
+package: Custom
