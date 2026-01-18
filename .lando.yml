@@ -2,6 +2,14 @@ name: my-first-drupal10-app
 recipe: drupal10
 config:
   webroot: web
-services: 
-  appservice:
+  php: '8.2'
+  memory_limit: 4096M
+
+services:
+  appserver:
+    overrides:
+      environment:
+        PHP_MEMORY_LIMIT: 4096M
+
+  phpmyadmin:
     type: phpmyadmin

@@ -3,7 +3,7 @@ name: icecream_theme
 type: theme
 base theme: false
 description: "First custom icecream theme"
-core_version_requirement: ^10
+core_version_requirement: ^10 || ^11
 php: 8.1
 libraries:
   - "icecream_theme/global"
@@ -12,4 +12,5 @@ regions:
   header: 'Header'
   menu: 'Menu'
   content: 'Content'
+  sidebar: 'Sidebar'
   footer: 'Footer'

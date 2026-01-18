@@ -892,7 +892,7 @@ $settings['migrate_node_migrate_type_classic'] = FALSE;
 # if (file_exists($app_root . '/' . $site_path . '/settings.local.php')) {
 #   include $app_root . '/' . $site_path . '/settings.local.php';
 # }
-$databases['default']['default'] = array (
+$databases['default']['default'] = array(
   'database' => 'drupal10',
   'username' => 'drupal10',
   'password' => 'drupal10',
@@ -905,3 +905,12 @@ $databases['default']['default'] = array (
   'autoload' => 'core/modules/mysql/src/Driver/Database/mysql/',
 );
 $settings['config_sync_directory'] = 'sites/default/files/config_ZqfxBW8y4sEPEqfnRxEPkGTKYCm6mYgp1CO6fuDudb6g6YsWeCz_ZZRvQqqVKdoY4MlvcPQoeA/sync';
+
+// // php
+// $config['cors.config']['enabled'] = TRUE;
+// $config['cors.config']['allowed_origins'] = ['http://localhost:5173'];
+// $config['cors.config']['allowed_headers'] = ['*'];
+// $config['cors.config']['allowed_methods'] = ['GET', 'POST', 'PUT', 'PATCH', 'DELETE', 'OPTIONS'];
+// $config['cors.config']['expose_headers'] = [];
+// $config['cors.config']['max_age'] = 3600;
+// $config['cors.config']['supports_credentials'] = TRUE; // Set to TRUE if you need to send cookies or authorization headers

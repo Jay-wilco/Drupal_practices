@@ -1,0 +1,5 @@
+name: 'my_generated_module'
+type: module
+description: 'funtastic module something something'
+package: Custom
+core_version_requirement: ^10 || ^11

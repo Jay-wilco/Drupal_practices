@@ -1,0 +1,5 @@
+react_app:
+  version: VERSION
+
+  js:
+    js/dist/main.min.js: {}

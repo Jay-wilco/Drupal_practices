@@ -1,0 +1,36 @@
+{#
+  Simple page wrapper for icecream_theme.
+#}
+
+<div class="site">
+
+  <header class="site-header">
+  <div class="container">
+    {{ page.header }}
+
+    <div class="heading">
+      <h1>Welcome</h1>
+    </div>
+
+    {% if page.menu %}
+      <nav class="site-nav" aria-label="Main navigation">
+        {{ page.menu }}
+      </nav>
+    {% endif %}
+  </div>
+</header>
+
+
+  <main class="site-main">
+    <div class="container">
+      {{ page.content }}
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      {{ page.footer }}
+    </div>
+  </footer>
+
+</div>
