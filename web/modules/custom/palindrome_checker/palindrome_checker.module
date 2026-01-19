@@ -1,0 +1,16 @@
+<?php
+
+/**
+ * @file
+ * Palindrome Checker module file.
+ */
+
+/**
+ * Implements hook_help().
+ */
+function palindrome_checker_help($route_name, $route_match) {
+  if ($route_name === 'help.page.palindrome_checker') {
+    return '<p>The Palindrome Checker module provides a simple form at <code>/palindrome</code> to test whether a text is a palindrome.</p>
+            <p>It ignores spaces, punctuation, and letter casing. Example: <em>“Never odd or even”</em>.</p>';
+  }
+}
